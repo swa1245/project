@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+ width: 100%;
+
+}
+#home{
+
+}
+#nav{
+    padding: 3vw 10vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    display: flex;
+    gap: 20px;
+}
+#nav a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#nav #center a{
+    font-weight: 900;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hero{
+    width: 100%;
+    /* height: 100px; */
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sustan{
+    width: 10vw;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sustan p{
+    text-transform: capitalize;
+    opacity: .5;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 10px 0;
+    line-height: 1;
+}
+#sustan #susimage{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+   
+}
+#susimage img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+#equb{
+    width: 30vw;
+    min-height: 45vw;
+    /* background-color: rgb(150, 170, 170); */
+    position: relative;
+}
+#equb img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#equb h1{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -.2vw;
+    font-size: 6vw;
+    line-height: 1;
+}
+#equb #head{
+   position: absolute;
+   top: -20%;
+   left: -20%;
+
+}
+#equb p{
+    font-size: 1.3vw;
+    letter-spacing: -.05vw;
+    width: 40%;
+    font-weight: 800;
+}
+#circle{
+    width: 3vw;
+    height: 3vw;
+    border-radius:50% ;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#imgtext{
+        width: fit-content;
+        height: fit-content;
+        /* background-color: aqua; */
+}
+#visit {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#motive{
+    margin-top: 8vw;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#motive h1{
+    opacity: 50%;
+}
+#motive p{
+    line-height: 1.7;
+    /* letter-spacing: -.1vw; */
+    font-weight: 600;
+    width: 80%;
+    text-align: right;
+    font-style: 2vw;
+    right: 0;
+    position: relative;
+}
+#motive span{
+    display: inline-block;
+    width: 80px;
+    height: 45px;
+    margin: 0 10px;
+    background-color: aqua;
+    border-radius: 100px;
+    margin-bottom: -12.5px;
+    margin: 0 15px;
+}
+#one{
+    width: 80px;
+    height: 50px;
+    background-image: url(./bluegirl.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#two{
+    width: 80px;
+    height: 50px;
+    background-image: url(./shaljam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#three{
+    width: 80px;
+    height: 50px;
+    background-image: url(./grass.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#hero2{
+    padding: 3vw;
+    padding: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Syenergy{
+    width: 20vw;
+    min-height: 45vw;
+    /* background-color: rgb(150, 170, 170); */
+    position: relative;
+}
+
+#Syenergy img{
+    height: 30vw;
+    width: 100%;
+    margin-bottom: 2vw;
+}
+#pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#Syenergy h1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    line-height: 1;
+    margin-bottom: 2vw;
+}
+
+#Syenergy p{
+    font-size: 1.3vw;
+    letter-spacing: -.05vw;
+    width: 50%;
+    font-weight: 400;
+    
+}
+#Harmony{
+    width: 30vw;
+    min-height: 45vw;
+    /* background-color: rgb(150, 170, 170); */
+    position: relative;
+    text-align: right;
+}
+#Harmony img{
+    height: 50vw;
+    width: 100%;
+    margin-bottom: 2vw;
+}
+
+#Harmony h1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    line-height: 1;
+    margin-bottom: 2vw;
+}
+
+#Harmony p{
+    font-size: 1.3vw;
+    letter-spacing: -.05vw;
+    /* width: 100%; */
+    font-weight: 400;
+   
+}
+#pic2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
