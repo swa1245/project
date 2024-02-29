@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -15,20 +17,20 @@
         <div id="home">
             <div id="nav">
                 <div id="left">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
+                    <a class="navlink" href="#">Home</a>
+                    <a class="navlink" href="#">About</a>
+                    <a class="navlink" href="#">Contact</a>
                 </div>
                 <div id="center">
-                    <a href="#">Swaraj</a>
+                    <a class="navlink" href="#">Swaraj</a>
                 </div>
                 <div id="right">
-                    <a href="#">jourey</a>
+                    <a class="navlink" href="#">jourey</a>
                 </div>
     
             </div>
             <div id="hero">
-                <div id="sustan">
+                <div class="aim2" id="sustan">
                     <h5>01.</h5>
                     <h1>Sustanability</h1>
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -36,7 +38,7 @@
                         <img src="./pinkgreenplant.jpg" alt="">
                     </div>
                 </div>
-                <div id="equb">
+                <div class="aim2" id="equb">
                     <div id="head">
                         <h1>Ephermeal.</h1>
                         <h1>Equilibirum</h1>
@@ -46,36 +48,59 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cupiditate corrupti dolores voluptas delectus neque.</p>        
                     </div> 
                 </div>
-                <div id="visit">
+                <div class="aim2" id="visit">
                     <div id="circle"><i class="ri-arrow-down-line"></i></div>
                     <h3>visit our gallery</h3>
                 </div>
             </div>
-            <div id="motive">
-                <h1> our motive</h1>
-                <p>Lorem ipsum dolor sit amet consectetur  <span id="one"></span>adipisicing elit. Sit libero aliquam maiores <span id="two"></span>doloribus atque, facere nesciunt nemo<span id="three"></span> soluta qui deleniti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis perspiciatis, inventore doloremque ab, vitae totam porro nulla voluptates veritatis nesciunt nostrum eveniet nobis? Illo, ipsum voluptatibus! Vel, ratione minus?</p>
+        </div>
+        <div id="motive">
+            <h1> our motive</h1>
+            <p>Lorem ipsum dolor sit amet consectetur  <span id="one"></span>adipisicing elit. Sit libero aliquam maiores <span id="two"></span>doloribus atque, facere nesciunt nemo<span id="three"></span> soluta qui deleniti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum reiciendis perspiciatis, inventore doloremque ab, vitae totam porro nulla voluptates veritatis nesciunt nostrum eveniet nobis? Illo, ipsum voluptatibus! Vel, ratione minus?</p>
+        </div>
+        <div id="hero2">
+            <div id="Syenergy">
+                <div class="pic">
+                    <img src="./sea.jpg" alt="">
+                </div>
+                
+                <h1>Syenergy</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.</p>
             </div>
-            <div id="hero2">
-                <div id="Syenergy">
-                    <div class="pic">
-                        <img src="./sea.jpg" alt="">
-                    </div>
-                    
-                    <h1>Syenergy</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.</p>
+            <div id="Harmony">
+                <div class="pic2">
+                    <img src="./bottle2.jpg" alt="">
                 </div>
-                <div id="Harmony">
-                    <div class="pic2">
-                        <img src="./bottle2.jpg" alt="">
-                    </div>
-                   
-                    <h1>Harmony</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.</p>
-                </div>
+               
+                <h1>Harmony</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.</p>
             </div>
         </div>
-        
+        <div id="banner">
+            <div id="bimg">
+                <img src="./bottle.jpg" alt="">
+                <img src="./bottle2.jpg" alt="">
+            </div>
+            <div id="btext">
+                <h1>Biodegradble</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, voluptatem!</p>
+            </div>
+        </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  Gsap is needed for Basic Effects -->
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+        <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
     <script src="1.js"></script>
 </body>
 </html>
